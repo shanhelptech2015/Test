@@ -3,11 +3,18 @@
               android:orientation="vertical"
               android:layout_width="fill_parent"
               android:layout_height="fill_parent"
-        >
+              android:background="#ff9f9b97" android:weightSum="1">
     <TextView
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:text="Hello World, MyActivity"
-            />
+            android:id="@+id/helloText" android:importantForAccessibility="auto"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Button"
+            android:id="@+id/button" android:layout_gravity="center_horizontal"
+            android:onClick="buttonOnClick01"/>
+
 </LinearLayout>
 
